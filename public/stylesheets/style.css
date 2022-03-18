@@ -1,0 +1,57 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  color: 15px;
+}
+
+.error-message {
+  color: red;
+}
+
+.message {
+  padding: 2rem;
+  background-color: rgba(240, 240, 240, 0.781);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-container {
+  border-radius: 0.5rem;
+}
+
+.link-container a {
+  text-decoration: none;
+  font-size: 1.3em;
+  font-weight: 600;
+  margin: 0 0.5rem;
+  background-color: rgb(247, 247, 247);
+  padding: 1rem;
+  color: rgb(15, 44, 87);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.link-container a:hover {
+  background-color: rgb(224, 224, 224);
+}
